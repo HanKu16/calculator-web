@@ -1,78 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
     <div class="calculator">
-      <div class="calulator-display">
-        <div class="calculations-input-display">
-
-        </div>
-        <div class="calculations-output-display">
-          
-        </div>
+      <div class="input-display">
+        7x8
       </div>
-      <div class="calculator-buttons">
-        <div class="general-button">
-          <button>AC</button>
-        </div>
-        <div class="general-button">
-          <button>+/-</button>
-        </div>
-        <div class="general-button">
-          <button>%</button>
-        </div>
-        <div class="arithmetic-button">
-          <button>/</button>
-        </div>
-        <div class="number-button">
-          <button>7</button>
-        </div>
-        <div class="number-button">
-          <button>8</button>
-        </div>
-        <div class="number-button">
-          <button>9</button>
-        </div>
-        <div class="arithmetic-button">
-          <button>*</button>
-        </div>
-        <div class="number-button">
-          <button>4</button>
-        </div>
-        <div class="number-button">
-          <button>5</button>
-        </div>
-        <div class="number-button">
-           <button>6</button>
-        </div>
-        <div class="arithmetic-button">
-          <button>-</button>
-        </div>
-        <div class="number-button">
-          <button>1</button>
-        </div>
-        <div class="number-button">
-          <button>2</button>
-        </div>
-        <div class="number-button">
-          <button>3</button>
-        </div>
-        <div class="arithmetic-button">
-          <button>+</button>
-        </div>
-        <div class="number-button">
-          <button></button>
-        </div>
-        <div class="number-button">
-          <button>0</button>
-        </div>
-        <div class="number-button">
-          <button>.</button>
-        </div>
-        <div class="arithmetic-button">
-          <button>=</button>
-        </div>
+      <div class="output-display">
+        56
+      </div>
+      <div class="input-buttons">
+        <button class="general-button" data-operation="AC">AC</button>
+        <button class="general-button">+/-</button>
+        <button class="general-button">%</button>
+        <button class="arithmetic-button" data-operation="/">/</button>
+        <button class="number-button" data-number="7">7</button>
+        <button class="number-button" data-number="8">8</button>
+        <button class="number-button" data-number="9">9</button>
+        <button class="arithmetic-button" data-operation="*">*</button>
+        <button class="number-button" data-number="4">4</button>
+        <button class="number-button" data-number="5">5</button>
+        <button class="number-button" data-number="6">6</button>
+        <button class="arithmetic-button" data-operation="-">-</button>
+        <button class="number-button" data-number="1">1</button>
+        <button class="number-button" data-number="2">2</button>
+        <button class="number-button" data-number="3">3</button>
+        <button class="arithmetic-button" data-operation="+">+</button>
+        <button class="number-button"></button>
+        <button class="number-button" data-number="0">0</button>
+        <button class="number-button" data-number=".">.</button>
+        <button class="arithmetic-button" data-operation="=">=</button>
       </div>
     </div>
   </body>
