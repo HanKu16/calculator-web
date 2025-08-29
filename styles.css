@@ -32,27 +32,24 @@ body {
   width: 85%;
   aspect-ratio: 1 / 0.2;
   color: #aaa9ab;
-  /* background-color: blue; */
   font: 1.4rem "Fira Sans";
 }
 
 .output-display {
   width: 85%;
   aspect-ratio: 1 / 0.2;
-  /* background-color: red; */
   color: rgb(237, 236, 236);
   font: 2rem "Fira Sans";
 }
 
-.input-buttons {
+.buttons-grid {
   display: grid;
   width: 90%;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   aspect-ratio: 1 / 1.25;
 }
 
-.general-button, .arithmetic-button, .number-button {
-  color: white;
+button {
   width: 90%;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
@@ -60,26 +57,30 @@ body {
   transition: background-color 0.1s ease-in;
 }
 
-.general-button {
-  background-color: #5C5B60;
+.dark-gray, .bright-gray, .orange {
+  color: white;
 }
 
-.general-button:hover {
-  background-color: #7e7d82;
-}
-
-.arithmetic-button {
-  background-color: #FF9F0A;
-}
-
-.arithmetic-button:hover {
-  background-color: #fbb245;
-}
-
-.number-button {
+.dark-gray {
   background-color: #2A2A2C;
 }
 
-.number-button:hover {
+.dark-gray:hover {
   background-color: #4f4f51;
+}
+
+.bright-gray {
+  background-color: #5C5B60;
+}
+
+.bright-gray:hover {
+  background-color: #7e7d82;
+}
+
+.orange {
+  background-color: #FF9F0A;
+}
+
+.orange:hover {
+  background-color: #fbb245;
 }

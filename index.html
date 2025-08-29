@@ -5,34 +5,31 @@
   </head>
   <body>
     <div class="calculator">
-      <div class="input-display">
-        7x8
-      </div>
-      <div class="output-display">
-        56
-      </div>
-      <div class="input-buttons">
-        <button class="general-button" data-operation="AC">AC</button>
-        <button class="general-button">+/-</button>
-        <button class="general-button">%</button>
-        <button class="arithmetic-button" data-operation="/">/</button>
-        <button class="number-button" data-number="7">7</button>
-        <button class="number-button" data-number="8">8</button>
-        <button class="number-button" data-number="9">9</button>
-        <button class="arithmetic-button" data-operation="*">*</button>
-        <button class="number-button" data-number="4">4</button>
-        <button class="number-button" data-number="5">5</button>
-        <button class="number-button" data-number="6">6</button>
-        <button class="arithmetic-button" data-operation="-">-</button>
-        <button class="number-button" data-number="1">1</button>
-        <button class="number-button" data-number="2">2</button>
-        <button class="number-button" data-number="3">3</button>
-        <button class="arithmetic-button" data-operation="+">+</button>
-        <button class="number-button"></button>
-        <button class="number-button" data-number="0">0</button>
-        <button class="number-button" data-number=".">.</button>
-        <button class="arithmetic-button" data-operation="=">=</button>
+      <div class="input-display"></div>
+      <div class="output-display"></div>
+      <div class="buttons-grid">
+        <button class="bright-gray" id="clear-button" data-operation="AC">AC</button>
+        <button class="bright-gray" id="delete-button">DEL</button>
+        <button class="bright-gray">%</button>
+        <button class="operation-button orange" data-operation="/">/</button>
+        <button class="value-button dark-gray" data-number="7">7</button>
+        <button class="value-button dark-gray" data-number="8">8</button>
+        <button class="value-button dark-gray" data-number="9">9</button>
+        <button class="operation-button orange" data-operation="*">*</button>
+        <button class="value-button dark-gray" data-number="4">4</button>
+        <button class="value-button dark-gray" data-number="5">5</button>
+        <button class="value-button dark-gray" data-number="6">6</button>
+        <button class="operation-button orange" data-operation="-">-</button>
+        <button class="value-button dark-gray" data-number="1">1</button>
+        <button class="value-button dark-gray" data-number="2">2</button>
+        <button class="value-button dark-gray" data-number="3">3</button>
+        <button class="operation-button orange" data-operation="+">+</button>
+        <button class="dark-gray"></button>
+        <button class="value-button dark-gray" data-number="0">0</button>
+        <button class="value-button dark-gray" data-number=".">.</button>
+        <button class="orange" id="result-button" data-operation="=">=</button>
       </div>
     </div>
+    <script src="./app.js" type="module"></script>
   </body>
 </html>
